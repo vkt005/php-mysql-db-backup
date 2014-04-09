@@ -15,7 +15,7 @@
 Written by: vivek kumar tripathi - [http://opensum.com](http://opensum.com)
 
 ###License
-Released under the GPL license - http://opensource.org/licenses/MIT
+Released under the GPL license - http://opensource.org/licenses/GPL-2.0
 
 Let's get on with it!
 

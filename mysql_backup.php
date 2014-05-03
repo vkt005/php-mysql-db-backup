@@ -107,7 +107,7 @@ foreach($tables as $table)
         // Extract data of each row 
         for($i=0; $i<$num_fields; $i++)
         {   
-        $return .= '"'.$rowdata[$i] . "\"," ;
+        $return .= '"'.$mysqli->real_escape_string($rowdata[$i]) . "\"," ;
         }
         // Let's remove the last comma 
         $return = substr("$return", 0, -1) ; 
